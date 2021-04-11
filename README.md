@@ -147,7 +147,7 @@ There are a few ways that you can go about detecting key presses, some
 global methods on the `RgbKeypad` class instance, and some on the `Key` class
 instances themselves.
 
-### RgbKeyoad class methods for detecting presses and key states
+### RgbKeypad class methods for detecting presses and key states
 
 `keypad.get_states()` will return a list of the state of all of the keys, in 
 order, with a state of `0` being not pressed, and `1` being pressed. You can
