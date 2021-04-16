@@ -2,15 +2,15 @@
 #
 # SPDX-License-Identifier: MIT
 
-"""
-* Originaly, this example displayed a rainbow animation on Keybow 2040's keys.
-* This adaptation is for Pimoroni Pico RGB Keypad
+# Original file was done for Keybow 2040
+# Author: Sandy Macdonald
 
-* Author: Sandy Macdonald
-* Author: Thierry Chantier
+# Adaptation for RGB Keypad
+# Author: Thierry Chantier
 
-* Drop the rgbkeypad.py file into your `lib` folder on your `CIRCUITPY` drive.
-"""
+# This example displays a rainbow animation on Pico RGB Keypad's keys.
+
+# Drop the rgbkeypad.py file into your `lib` folder on your `CIRCUITPY` drive.
 
 import math
 import board
